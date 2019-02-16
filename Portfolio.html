@@ -1,42 +1,99 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
+    <script src="main.js"></script>
 </head>
-
 <body>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Title-->
     
     <!--Nav Bar-->
-    <nav class="nav-bar">
-        <div class="nav-edits">
-            <ul>
-                <li> <a href="contact.html">Contact</a></li>
-                <li> <a href="portfolio.html">Portfolio</a></li>
-                <li> <a href="index.html">About</a></li>
+     
 
 
-            </ul>
-            <div class="bold-name">
-                <h1>Ryan Brown</h1>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ryan Brown</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+        </ul>
         </div>
     </nav>
+    
+
     <!--Portfolio Use Flexbox to seperate projects-->
-    <div class="middle-container">
+    <div class="container middle-container">
         <h2>Portfolio</h2>
         <hr>
-        <div class="flex-wrap">
-            <div id="flex-container">
-                <!-- Hangman -->
+
+
+
+
+        <div class="container flex container">
+                <div class="row">
+                  <div class="col md-6">
+                        <a href="#"><img class="project-img"
+                            src="http://listdose.co/wp-content/uploads/2013/08/pc-games.jpg"><p class="port-text">RPG Game</p></a>
+                  </div>
+                  <div class="col md-6">
+                     <a href="#"><img class="project-img"
+                        src="https://i.guim.co.uk/img/media/afaf585410b56a4e703ce1877627af64eebc9b44/241_0_4491_2695/master/4491.jpg?width=700&quality=85&auto=format&fit=max&s=f33b65c478572bebf86a11fee03e396c"></a>
+                        <p class="port-text">Tic Tac Toe</p> 
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col md-6">
+                        <a href="#"><img class="project-img"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh2V1N6bnAAb66n_9G32WTgBR437feGoRUGauKUMMgd5ek0xaSJg">
+                            <p class="port-text">RPG Game</p></a>
+                  </div>
+                  <div class="col md-6">
+                        <a href="#"><img class="project-img"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAC21ab0oMe7OBHkPf22uQOcf_uJ69eP-mS_fcImCiSGxidZYjdQ">
+                             <p class="port-text">UNC Campus App</p> </a>
+                  </div>
+                </div>
+                  <div class="row">
+                  <div class="col md-6">
+                        <a href="#">  <img class="project-img"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAC21ab0oMe7OBHkPf22uQOcf_uJ69eP-mS_fcImCiSGxidZYjdQ">
+                            <p class="port-text">Rock Paper Scissors</p></a>
+                  </div>
+                  <div class="col md-6">
+                        <a href="#">  <img class="project-img"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTevjooD3RDHDeQhwLeYy1shhLWBHHUAg-_3XqZUNbjkokwEpVCYg">
+                            <p class="port-text">Trivia Game</p></a>
+                  </div>
+                </div>
+              </div>
+
+                
+                    
+
+
+     </div>
+            
+                <!-- Hangman
                 <div class="flex-item">
                     <a href="#"> <img class="project-img"
                             src="http://listdose.co/wp-content/uploads/2013/08/pc-games.jpg"></a>
@@ -45,37 +102,37 @@
                     </div>
                 </div>
                 <!-- RPG Game -->
-                <div class="flex-item">
+                <!-- <div class="flex-item">
                     <a href="#"> <img class="project-img"
                             src="https://i.guim.co.uk/img/media/afaf585410b56a4e703ce1877627af64eebc9b44/241_0_4491_2695/master/4491.jpg?width=700&quality=85&auto=format&fit=max&s=f33b65c478572bebf86a11fee03e396c"></a>
                     <div class="project-box">
                         <h4 class="project-text">RPG Game</h4>
                     </div>
-                </div>
+                </div> -->
                 <!-- Trivia Game  -->
-                <div class="flex-item">
+                <!-- <div class="flex-item">
                     <a href="#"> <img class="project-img"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh2V1N6bnAAb66n_9G32WTgBR437feGoRUGauKUMMgd5ek0xaSJg"></a>
                     <div class="project-box">
                         <h4 class="project-text">Triva Game</h4>
                     </div>
-                </div>
+                </div> -->
                 <!-- UNC Info Widget -->
-                <div class="flex-item">
+                <!-- <div class="flex-item">
                     <a href="#"> <img class="project-img"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAC21ab0oMe7OBHkPf22uQOcf_uJ69eP-mS_fcImCiSGxidZYjdQ"></a>
                     <div class="project-box">
                         <h4 class="project-text">UNC Info Widget</h4>
                     </div>
-                </div>
-                <!-- Rock Paper Scissors -->
+                </div> -->
+                <!-- Rock Paper Scissors
                 <div class="flex-item">
                     <a href="#"> <img class="project-img"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTevjooD3RDHDeQhwLeYy1shhLWBHHUAg-_3XqZUNbjkokwEpVCYg"></a>
                     <div class="project-box">
                         <h4 class="project-text">Rock Paper Scissors</h4>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
